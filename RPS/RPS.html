@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Rock Paper Scissors</title>
-</head>
-<body>
-  <h2>Welcome to Rock, Paper, Scissors!</h2>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🎮 Rock Paper Scissors</h1>
 
-  <p>Choose Game Mode:</p>
-  <button id="pvpBtn">Player vs Player</button>
-  <button id="pvcBtn">Player vs Computer</button>
+    <div class="mode-buttons">
+      <button id="pvpBtn">👥 Player vs Player</button>
+      <button id="pvcBtn">🤖 Player vs Computer</button>
+    </div>
 
-  <div id="gameArea" style="margin-top: 20px;"></div>
-  <p id="result"></p>
+    <div id="score"></div>
+    <div id="gameArea"></div>
+    <div id="emojiDisplay" class="emoji-display"></div>
+    <div id="result"></div>
 
-  <script src="script.js"></script>
-</body>
+    <button id="playAgainBtn">🔄 Play Again</button>
+
+    <script src="script.js"></script>
+  </body>
 </html>
 
